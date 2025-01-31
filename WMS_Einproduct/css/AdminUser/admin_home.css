@@ -1,0 +1,36 @@
+.news-item {
+    border-bottom: 1px solid #444;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-title {
+    color: #eee;
+}
+
+.news-summary {
+    color: #ccc;
+}
+
+.news-link {
+    color: #ff6600; /* Accentkleur voor links */
+    text-decoration: none;
+}
+
+/* Styling voor de updates lijst */
+.updates-list {
+    list-style: none;
+    padding: 0;
+}
+
+.update-date {
+    font-weight: bold;
+}
+
+/* Styling voor de content container */
+.row {
+    display: flex;
+    justify-content: space-around; /* Content gelijkmatig verdelen */
+    align-items: center;
+    gap: 1rem;
+}

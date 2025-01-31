@@ -1,0 +1,60 @@
+.success-message {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #eee;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    color: #eee;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+select,
+input[type="number"] {
+    background-color: #222;
+    color: #eee;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc5500;
+}

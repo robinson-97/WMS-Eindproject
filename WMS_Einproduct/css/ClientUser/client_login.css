@@ -1,0 +1,75 @@
+h1 {
+    color: #eee;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    color: #eee;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #222;
+    color: #eee;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc5500;
+}
+
+/* Styling voor de login sectie */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Container voor het formulier */
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

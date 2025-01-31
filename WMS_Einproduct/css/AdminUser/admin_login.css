@@ -1,0 +1,46 @@
+h1 {
+    color: #eee;
+    text-align: center;
+    margin-bottom: 2rem; /* Voeg wat ruimte toe onder de titel */
+}
+
+form {
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Centreer het formulier horizontaal */
+}
+
+label {
+    color: #eee;
+    margin-bottom: 0.5rem;
+    display: block; /* Zorg ervoor dat labels boven de inputvelden staan */
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #222;
+    color: #eee;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: calc(100% - 1rem); /* Pas de breedte aan met padding */
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc5500;
+}

@@ -1,0 +1,91 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styling voor de login sectie */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Container voor de knoppen */
+.container {
+    max-width: 960px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff6600;
+}
+
+/* Styling voor de knoppen */
+.login-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #ff6600;
+    transform: scale(1.1);
+}
+
+/* Specifieke stijlen voor elke knop */
+.admin-btn {
+    background-color: #007BFF;
+}
+
+.client-btn {
+    background-color: #28a745;
+}
+
+.employee-btn {
+    background-color: #ffc107;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1;
+}

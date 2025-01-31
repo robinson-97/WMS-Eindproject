@@ -1,0 +1,46 @@
+.main-container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    color: #eee;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    color: #eee;
+}
+
+select,
+input[type="number"] {
+    background-color: #222;
+    color: #eee;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc5500;
+}
